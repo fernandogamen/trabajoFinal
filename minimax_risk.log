@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.24)  27 OCT 2014 18:25
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.24)  5 NOV 2014 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -191,21 +191,21 @@ Package: cite 2010/09/10  v 5.3
 ) (./minimax_risk.aux)
 \openout1 = `minimax_risk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -243,7 +243,7 @@ e
 
 Package hyperref Warning: Draft mode on.
 
-Package hyperref Info: Link coloring OFF on input line 9.
+Package hyperref Info: Link coloring OFF on input line 10.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -252,93 +252,150 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count104
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]\OT1/ptm/b/n/14.4 Juegos con in-for-maci[]on per-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 51.
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]\OT1/ptm/b/n/17.28 Juegos con in-for-maci[]on
  []
 
 
-Underfull \vbox (badness 4279) has occurred while \output is active []
+Underfull \hbox (badness 2951) in paragraph at lines 39--39
+\OT1/ptm/b/n/17.28 per-fecta. [MOD-I-FICAR
+ []
 
- [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \hbox (badness 1127) in paragraph at lines 39--39
+\OT1/ptm/b/n/17.28 A IN-FOR-MARCI[]ON IM-
+ []
 
 
-] (./minimax_risk.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\OT1/ptm/b/n/17.28 PERFECTA Y AR-GU-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 39--39
+\OT1/ptm/b/n/17.28 MEN-TAR EL POR QUE
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (70.34113pt too high) has occurred while \output is active []
+
+
+[1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 48.
+
+Underfull \hbox (badness 1688) in paragraph at lines 48--52
+\OT1/ptm/m/n/12 de con-ti-nentes, es de-cir, el de-sar-rollo sera
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
+
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 67--68
+\OT1/ptm/m/n/12 El tablero de juego es-tar[]a rep-re-sen-tado por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 69--70
+[]\OT1/ptm/m/n/12 Para in-tro-ducir la funci[]on de eval-u-aci[]on
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 81--81
+[]\OT1/ptm/b/n/17.28 Especificaciones del pro-
+ []
+
+
+LaTeX Warning: Citation `2personGT' on page 2 undefined on input line 85.
+
+[2] (./minimax_risk.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 4819) in paragraph at lines 4--8
-[]\OT1/ptm/m/n/10 Parker Broth-ers.  Risk the world con-que-rior
+Underfull \hbox (badness 4279) in paragraph at lines 4--8
+\OT1/ptm/m/n/12 rior game.  $\OT1/pcr/m/n/12 http : / / www . hasbro .
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 4--8
-\OT1/ptm/m/n/10 game.  $\OT1/pcr/m/n/10 http : / / www . hasbro . com / common 
-/
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/pcr/m/n/12 com / common / instruct / risk . pdf$\OT1/ptm/m/n/12 .
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+ [3
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./minimax_risk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 94.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 5550 strings out of 494999
- 81250 string characters out of 6180801
- 156443 words of memory out of 5000000
- 8706 multiletter control sequences out of 15000+600000
- 27769 words of font info for 64 fonts, out of 8000000 for 9000
+ 5553 strings out of 494999
+ 81339 string characters out of 6180801
+ 156468 words of memory out of 5000000
+ 8711 multiletter control sequences out of 15000+600000
+ 28669 words of font info for 67 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 29i,9n,26p,255b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,26p,475b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on minimax_risk.pdf (2 pages, 66202 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on minimax_risk.pdf (3 pages, 90760 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

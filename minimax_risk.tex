@@ -1,4 +1,5 @@
-\documentclass[10pt,twocolumn,draft]{article} 
+\documentclass[12pt,twocolumn,draft]{article} 
+
 \usepackage{times}
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -12,11 +13,11 @@
 \author{Prieto, Estefan\'ia$^{[1]}$\\
 Galicia, Fernando$^{[1]}$\\
 Galv\'an, Antonio$^{[1]}$\\
-$^{[1]}$Facultad de Ciencias, UNAM.\\
+$^{[1]}$Facultad de Ciencias, U.N.A.M.\\
 \\
-prietaslastiene@fciencias.unam.mx\\
-gagay@fciencias.unam.mx\\
-agalvan@fciencias.unam.mx\\
+estefaniaprieto@ciencias.unam.mx\\
+fernandogamen@ciencias.unam.mx\\
+g.antonio@ciencias.unam.mx\\
 \date{21-Noviembre-2014}
 }
 
@@ -24,12 +25,8 @@ agalvan@fciencias.unam.mx\\
 \maketitle
 \thispagestyle{empty}
 \begin{abstract}
-El universo de \textbf{RISK} resulta ser demasiado amplio de tal forma que este proyecto busca una implementaci\'on sencilla basada en el algoritmo de \textit{Minimax} nativa de la teor\'ia de juegos.
-\\
-Para buscar \'esta implementaci\'on se ha decidido acotar el universo de tal forma que no contar\'a con las cartas presentes en el juego usual, reducir la cantidad de dados y tambi\'en el territorio de expansi\'on.
-\\
-La direcci\'on que se le busca dar a este proyecto es el poder modelar de forma acotada el juego del \textbf{RISK} con teor\'ia de juegos.
-\\
+A diferencia de los juegos de apuesta, donde el jugador se pregunta \textit{"?`Cu\'al es la mejor jugada para ganar un juego?"} y as\'i poder ser el due\~{n}o de un premio (generalmente un incentivo monetario), es bien sabido en la teor\'ia de juegos la motiva escenarios tales c\'omo el ajedrez, go, gato, etc. No existe tal pregunta, si no, \'esta se replantea una expresi\'on de la forma \textit{"?`Existe una mejor forma de jugar en tal escenario?"}.\\
+Por lo cu\'al se propone un modelo de Inteligencia Artificial para una versi\'on acotada del juego \textbf{Risk} basado en minimax, con base de estrategias desde muy complicadas implementadas por un experto, hasta muy b\'asicas diseñadas por un novatoodel juego.
 \end{abstract}
 \end{@twocolumnfalse}]
 
@@ -39,7 +36,7 @@ La direcci\'on que se le busca dar a este proyecto es el poder modelar de forma 
 Hacer ac\'a la introducci\'on de minimax.
 
 
-\section{Juegos con informaci\'on perfecta. [MODIFICAR A INFORMARCI\'ON SEMI-PERFECTA Y ARGUMENTAR EL POR QUE PODEMOS ADAPTARLO AS\'I.]}
+\section{Juegos con informaci\'on perfecta. [MODIFICAR A INFORMARCI\'ON IM-PERFECTA Y ARGUMENTAR EL POR QUE PODEMOS ADAPTARLO AS\'I.]}
 Explicar por que catalogamos al \textbf{RISK} c\'omo un juego de informaci\'on perfecta y por que hemos elegido esta implementaci\'on.
 
 
@@ -67,13 +64,25 @@ Aqu\'i es donde describimos el comportamiento del agente.
 
 
 \section{Funci\'on de evaluaci\'on e implementaci\'on.}
-Describir aqu\'i los detalles de la implementaci\'on.
+El tablero de juego estar\'a representado por medio de una gr\'afica, en la cual, cada nodo  ser\'a el representante de un pa\'is, \'estos comparten frontera con aquellos nodos en los cuales existe una arista que los conecta.\\
+
+Para introducir la funci\'on de evaluaci\'on primero observaremos el siguiente conjunto de definiciones:
+
+\textbf{\textit{Definici\'on:}}
+Definimos a la funci\'on  \textit{"tropas"} denotadas como 
+$t(i,j)$ de la siguiente manera: 
+\begin{center}
+$t(i,j)$ \textit{:= N\'umero de tropas del i-\'esimo  jugador en el j-\'esimo nodo}.
+\end{center}
+
+\textbf{\textit{Definici\'on:}}
+Definimos al conjunto de nodos del i-\'esimo jugador y lo denotamos c\'omo 
 
 \section{Especificaciones del programa.}
 Aqu\'i van las especificaciones de c\'omo es que programamos nuestro \textbf{RISK}, lenguaje, resultados, etc.
 
 \section{Conclusiones.}
-Informar las conclusiones que hemos encontrado en nuestra implementaci\'on.
+Informar las conclusiones que hemos encontrado en nuestra implementaci\'on. \cite{2personGT}
 
 
 % %Toda la bibliografía consultada debe de estar anexada en el archivo
@@ -81,9 +90,5 @@ Informar las conclusiones que hemos encontrado en nuestra implementaci\'on.
 \newpage
 \bibliographystyle{plain}	
 \bibliography{referencias.bib}{}
-
-
-
-
 
 \end{document}
