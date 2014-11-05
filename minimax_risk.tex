@@ -80,7 +80,14 @@ Definimos al conjunto de nodos pertenecientes a la gr\'afica y los denotamos c\'
 
 Con estas observaciones nos permitimos definir ahora a la funci\'on de evaluaci\'on c\'omo sigue:
 
-
+$$ 
+F_{eval}:= \left\{\begin{array}{c l}
+  \infty \ Max\ resulta\ ser\ ganador.\\
+  -\infty \ Min\ resulta\ ser\ ganador.\\
+  (\sum_{i=1}^{\nu} t(i,j))+c_{1}+c_{2}+\nu_{i}-\nu_{j}
+\end{array}
+\right.
+$$
 
 \section{Especificaciones del programa.}
 Aqu\'i van las especificaciones de c\'omo es que programamos nuestro \textbf{RISK}, lenguaje, resultados, etc.
