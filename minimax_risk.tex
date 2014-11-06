@@ -5,6 +5,9 @@
 \usepackage{amssymb}
 \usepackage{url,hyperref}
 \usepackage{cite}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
 
 
 \begin{document}
@@ -82,12 +85,19 @@ Con estas observaciones nos permitimos definir ahora a la funci\'on de evaluaci\
 
 $$ 
 F_{eval}:= \left\{\begin{array}{c l}
-  \infty \ Max\ resulta\ ser\ ganador.\\
-  -\infty \ Min\ resulta\ ser\ ganador.\\
-  (\sum_{i=1}^{\nu} t(i,j))+c_{1}+c_{2}+\nu_{i}-\nu_{j}
+  \infty\ Max\ resulta\ ser\ ganador.\\
+  -\infty\ Min\ resulta\ ser\ ganador.\\
+  ((\sum_{i=1}^{\nu} t(i,j)) \qquad \qquad \qquad\\
+  +c_{1}+c_{2}+\nu_{i}-\nu_{j}) \qquad EOC
 \end{array}
 \right.
 $$
+
+Donde definimos a $c_{1}$ de la siguiente manera:
+
+
+
+
 
 \section{Especificaciones del programa.}
 Aqu\'i van las especificaciones de c\'omo es que programamos nuestro \textbf{RISK}, lenguaje, resultados, etc.
