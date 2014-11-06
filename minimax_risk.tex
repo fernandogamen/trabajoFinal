@@ -7,7 +7,7 @@
 \usepackage{cite}
 \usepackage{algorithm}
 \usepackage{algorithmic}
-
+\input{spanishAlgorithmic}
 
 
 \begin{document}
@@ -93,10 +93,19 @@ F_{eval}:= \left\{\begin{array}{c l}
 \right.
 $$
 
-Donde definimos a $c_{1}$ de la siguiente manera:
+Donde definimos a la funci\'on $c_{1}$ de la siguiente manera:
 
+\begin{algorithm}
+\begin{algorithmic}[1]
+\ENSURE Determinar la imagen de la funci\'on $c_{1}$
 
+\FORALL{ $\nu$ in G}
+\STATE{Linea de c\'odigo}
+\ENDFOR
 
+\end{algorithmic}
+\caption{Definici\'on de la funci\'on $c_{1}$}
+\end{algorithm}
 
 
 \section{Especificaciones del programa.}
