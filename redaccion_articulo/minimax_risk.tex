@@ -29,7 +29,7 @@ g.antonio@ciencias.unam.mx\\
 \thispagestyle{empty}
 \begin{abstract}
 A diferencia de los juegos de apuesta, donde el jugador se pregunta \textit{"?`Cu\'al es la mejor jugada para ganar un juego?"} y as\'i poder ser el due\~{n}o de un premio (generalmente un incentivo monetario), es bien sabido en la teor\'ia de juegos la motiva escenarios tales c\'omo el ajedrez, go, gato, etc. No existe tal pregunta, si no, \'esta se replantea una expresi\'on de la forma \textit{"?`Existe una mejor forma de jugar en tal escenario?"}.\\
-Por lo cu\'al se propone un modelo de Inteligencia Artificial para una versi\'on acotada del juego \textbf{Risk} basado en minimax, con base de estrategias desde muy complicadas implementadas por un experto, hasta muy b\'asicas diseñadas por un novatoodel juego.
+Por lo cu\'al se propone un modelo de Inteligencia Artificial para una versi\'on acotada del juego \textbf{Risk} basado en minimax, con base en estrategias muy complicadas implementadas por un experto, hasta muy b\'asicas diseñadas por un novato en el juego.\\
 \end{abstract}
 \end{@twocolumnfalse}]
 
@@ -60,7 +60,7 @@ Sin embargo mantendremos las dem\'as condiciones iniciales con respecto a las tr
 \item Cada \textit{Artiller\'ia} representa 10 unidades.
 \end{list}
 
-Teniendo ya esto definido, entonces, cada jugador tendr\'a un ejercito inicial de [...]
+Teniendo ya esto definido, entonces, cada jugador tendr\'a un ejercito inicial de 35 tropas.
 
 \section{Descripci\'on del agente.}
 Aqu\'i es donde describimos el comportamiento del agente.
@@ -69,26 +69,29 @@ Aqu\'i es donde describimos el comportamiento del agente.
 \section{Funci\'on de evaluaci\'on e implementaci\'on.}
 El tablero de juego estar\'a representado por medio de una gr\'afica, en la cual, cada nodo  ser\'a el representante de un pa\'is, \'estos comparten frontera con aquellos nodos en los cuales existe una arista que los conecta.\\
 
-Para introducir la funci\'on de evaluaci\'on primero observaremos el siguiente conjunto de definiciones:
+Para introducir la funci\'on de evaluaci\'on primero observaremos el siguiente conjunto de definiciones:\\
 
 \textbf{\textit{Definici\'on:}}
 Definimos a la funci\'on  \textit{"tropas"} denotadas como 
-$t(i,j)$ de la siguiente manera: 
+$t(i,j)$ de la siguiente manera:
 \begin{center}
-$t(i,j)$ \textit{:= N\'umero de tropas del i-\'esimo  jugador en el j-\'esimo nodo}.
+$t(i,j)$ \textit{:= N\'umero de tropas del i-\'esimo  jugador en el j-\'esimo nodo}.\\
 \end{center}
 
 \textbf{\textit{Definici\'on:}}
-Definimos al conjunto de nodos pertenecientes a la gr\'afica y los denotamos c\'omo $\nu$ y al conjunto de nodos del i-\'esimo jugador c\'omo $\nu_{i}$
+Definimos al conjunto de nodos pertenecientes a la gr\'afica y los denotamos c\'omo $\nu$ y al conjunto de nodos del i-\'esimo jugador c\'omo $\nu_{i}$\\
 
-Con estas observaciones nos permitimos definir ahora a la funci\'on de evaluaci\'on c\'omo sigue:
+Y nos permitiremos sobrecargar la notaci\'on definiendo la funci\'on auxiliar $J(\nu)$ que tiene c\'omo objetivo indicar el jugador asociado al nodo $\nu$.\\
+
+
+Con estas observaciones nos permitimos definir ahora a la funci\'on de evaluaci\'on c\'omo sigue:\\
 
 $$ 
 F_{eval}:= \left\{\begin{array}{c l}
-  \infty\ Max\ resulta\ ser\ ganador.\\
-  -\infty\ Min\ resulta\ ser\ ganador.\\
+  \infty\ \textit{Max\ resulta\ ser\ ganador.}\\
+  -\infty\ \textit{Min\ resulta\ ser\ ganador.}\\
   ((\sum_{i=1}^{\nu} t(i,j)) \qquad \qquad \qquad\\
-  +c_{1}+c_{2}+\nu_{i}-\nu_{j}) \qquad EOC
+  +c_{1}+c_{2}+\nu_{i}-\nu_{j}) \qquad \textit{E.O.C.}
 \end{array}
 \right.
 $$
@@ -98,15 +101,45 @@ Donde definimos a la funci\'on $c_{1}$ de la siguiente manera:
 \begin{algorithm}
 \begin{algorithmic}[1]
 \ENSURE Determinar la imagen de la funci\'on $c_{1}$
-
-\FORALL{ $\nu$ in G}
-\STATE{Linea de c\'odigo}
+\STATE{$cuenta = 0$}
+\FORALL{$\nu^{\prime}$ $\in \nu_{1}$}
+\FORALL{$u$ $\in$ \textit{Vecinos}($\nu^{\prime}$)}
+\IF{$u \ \in \nu_{2}$}
+\STATE{$cuenta = cuenta + 1$}
+\ENDIF
 \ENDFOR
+\IF{$cuenta \ge 1$}
+\STATE{$-1$}
+\ELSE
+\STATE{1}
+\ENDIF
+\ENDFOR
+\RETURN $cuenta$
 
 \end{algorithmic}
 \caption{Definici\'on de la funci\'on $c_{1}$}
+\label{c1}
 \end{algorithm}
 
+El algoritmo~\ref{c1} muestra el comportamiento de de $c_{1}$ sea cual quiera que sea.\\
+
+Continuamos por definir la funci\'on $c_{2}$ as\'i de esta manera observemos que:\\
+
+\begin{algorithm}
+\begin{algorithmic}[1]
+\ENSURE Determinar la imagen de la funci\'on $c_{2}$
+\STATE{$cuenta = 0$}
+\FORALL{$\nu$ $\in$ \textit{Vecinos}($\nu$)}
+\IF{$J(\nu) \neq \emptyset$}
+\STATE{$J()$}
+\ENDIF
+\ENDFOR
+
+
+\end{algorithmic}
+\caption{Definici\'on de la funci\'on $c_{2}$}
+\label{c2}
+\end{algorithm}
 
 \section{Especificaciones del programa.}
 Aqu\'i van las especificaciones de c\'omo es que programamos nuestro \textbf{RISK}, lenguaje, resultados, etc.
