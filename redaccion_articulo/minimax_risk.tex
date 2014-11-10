@@ -67,6 +67,7 @@ Aqu\'i es donde describimos el comportamiento del agente.
 
 
 \section{Funci\'on de evaluaci\'on e implementaci\'on.}
+
 El tablero de juego estar\'a representado por medio de una gr\'afica, en la cual, cada nodo  ser\'a el representante de un pa\'is, \'estos comparten frontera con aquellos nodos en los cuales existe una arista que los conecta.\\
 
 Para introducir la funci\'on de evaluaci\'on primero observaremos el siguiente conjunto de definiciones:\\
@@ -142,10 +143,15 @@ Continuamos por definir la funci\'on $c_{2}$ as\'i de esta manera observemos que
 \end{algorithm}
 
 \section{Especificaciones del programa.}
-Aqu\'i van las especificaciones de c\'omo es que programamos nuestro \textbf{RISK}, lenguaje, resultados, etc.
+
+La implementaci\'on concreta del proyecto se ha realizado en el lenguaje de programaci\'on \textbf{\textit{Java}}\cite{JAVA} que se ha optado por que \textit{Escribir ventajas de java y por que hemos optado por \'el}\\
+
+Una vez aclarado esto, introduciremos la representaci\'on del territorio por medio de un archivo llamado \textit{"Territorio.xml"} en el cual obtenemos las ventajas de que \'este nos brinda una estructura la cual nos permite adaptar informaci\'on de manera independiente al manejo de \'esta \cite{xml}. As\'i el territorio del juego en el que cada pa\'is tendr\'a una etiqueta que lo represente y dentro de \'esta estar\'an especificados los atributos de cada pa\'is.\\
+
+De esta, hemos seccionado a los pa\'ises en una pequeña base de datos. As\'i que usaremos la interfaz \textit{JAXP}\cite{JAXP}
 
 \section{Conclusiones.}
-Informar las conclusiones que hemos encontrado en nuestra implementaci\'on. \cite{2personGT}
+Informar las conclusiones que hemos encontrado en nuestra implementaci\'on.\\
 
 
 % %Toda la bibliografía consultada debe de estar anexada en el archivo

@@ -1,9 +1,25 @@
 \begin{thebibliography}{1}
 
+\bibitem{JAXP}
+Jaxp reference implementation.
+\newblock \url{https://jaxp.java.net/}.
+\newblock 07/Noviembre/2014.
+
 \bibitem{RISK}
 Parker Brothers.
 \newblock Risk the world conquerior game.
 \newblock \url{http://www.hasbro.com/common/instruct/risk.pdf}.
 \newblock 27/Octubre/2014.
+
+\bibitem{xml}
+Borland~Software Corporation.
+\newblock {\em XML Developer's Guide}.
+\newblock 1997.
+
+\bibitem{JAVA}
+ORACLE.
+\newblock Descarga gratuita de java.
+\newblock \url{https://java.com/es/download/index.jsp}.
+\newblock 06/Noviembre/2014.
 
 \end{thebibliography}
