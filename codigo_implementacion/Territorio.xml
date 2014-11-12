@@ -6,7 +6,7 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino>Alberta</vecino>
+    <vecino nombreP = 'Alberta'/>
     <vecino>Territorios del Noroeste</vecino>
   </pais>
 
