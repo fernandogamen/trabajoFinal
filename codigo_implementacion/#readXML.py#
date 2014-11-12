@@ -18,7 +18,7 @@ def loadXML():
     Metodo encargado de generar el arbol que 
     se encuentra definido en el archivo .xml
     '''
-    territorio = ET.parse('Territorio.xml')
+    territorio = ET.parse('Territorio1.xml')
     arbol = territorio.getroot()
     
     for node in arbol:
@@ -28,16 +28,7 @@ def loadXML():
         vecinos = [x.text for x in node.findall('vecino')]
         salida = [node[0].text]+ids+continente+tropas+vecinos
         print [node.attrib['nombre']]+[x.text for x in node]
-<<<<<<< HEAD
-        
-        
-
     
-
-=======
     
-    print arbol.find('pais')
-    
->>>>>>> d5a576137561fe483411bc5ba1c454d97b0c69d2
 
 loadXML()
