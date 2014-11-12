@@ -59,7 +59,7 @@
     <jugador>none</jugador>
     <vecino> Alaska</vecino>
     <vecino>Ontario</vecino>
-    <vecino>Alberta</vecino>
+    <vecino>Alberta<vecino/>
     <vecino>Groenlandia</vecino>
   </pais>
 
@@ -69,7 +69,7 @@
     <tropas>0</tropas>
     <jugador>none</jugador>
     <vecino> Estados Unidos del Oeste</vecino>
-    <vecino>Estados Unidos del Este</vecino>
+    <vecino>Estados Unidos del Este<vecino/>
     <vecino>Quebec</vecino>
     <vecino> Groenlandia</vecino>
     <vecino>Alberta</vecino>
