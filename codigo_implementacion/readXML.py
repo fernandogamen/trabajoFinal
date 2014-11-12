@@ -25,7 +25,8 @@ def loadXML():
         ids = [x.text for x in node.findall('id')]
         continente = [x.text for x in node.findall('continente')]
         tropas = [x.text for x in node.findall('tropas')]
-        salida = [node[0].text]+ids+continente+tropas
+        vecinos = [x.text for x in node.findall('vecino')]
+        salida = [node[0].text]+ids+continente+tropas+vecinos
         print [node.attrib]+[x.text for x in node]
         
 

@@ -6,8 +6,8 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino nombre = 'Alberta'/>
-    <vecino nombre = 'Territorios del Noroeste'/>
+    <vecino>Alberta</vecino>
+    <vecino>Territorios del Noroeste</vecino>
   </pais>
 
   <pais nombre = 'Alberta'>
@@ -15,10 +15,10 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino nombre = 'Ontario'/>
-    <vecino nombre = 'Territorios del Noroeste'/>
-    <vecino nombre = 'Estados Unidos del Oeste'/>
-    <vecino nombre = 'Alaska'/>
+    <vecino>Ontario</vecino>
+    <vecino>Territorios del Noroeste</vecino>
+    <vecino>Estados Unidos del Oeste</vecino>
+    <vecino>Alaska</vecino>
   </pais>
 
   <pais nombre = 'Mexico, America Central y El Caribe'>
