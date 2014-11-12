@@ -28,8 +28,16 @@ def loadXML():
         vecinos = [x.text for x in node.findall('vecino')]
         salida = [node[0].text]+ids+continente+tropas+vecinos
         print [node.attrib['nombre']]+[x.text for x in node]
+<<<<<<< HEAD
     
     print arbol.find('pais')
     
+=======
+        
+        
+
+    
+
+>>>>>>> 431bc719a1723c38e407353ba77ca26a436889fc
 
 loadXML()
