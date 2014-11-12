@@ -58,7 +58,7 @@
     <tropas>0</tropas>
     <jugador>none</jugador>
     <vecino nombre = 'Alaska'/>
-    <vecino>Ontario</vecino>
+    <vecino>Alaska</vecino>
     <vecino nombre = 'Alberta'/>
     <vecino>Ontario</vecino>
     <vecino nombre = 'Ontario'/>
