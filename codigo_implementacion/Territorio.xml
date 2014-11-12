@@ -6,11 +6,7 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-<<<<<<< HEAD
-    <vecino nombreP = 'Alberta'/>
-=======
     <vecino>Alberta</vecino>
->>>>>>> 431bc719a1723c38e407353ba77ca26a436889fc
     <vecino>Territorios del Noroeste</vecino>
   </pais>
 
@@ -61,21 +57,10 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-<<<<<<< HEAD
     <vecino> Alaska</vecino>
     <vecino>Ontario</vecino>
     <vecino>Alberta</vecino>
     <vecino>Groenlandia</vecino>
-=======
-    <vecino nombre = 'Alaska'/>
-    <vecino>Alaska</vecino>
-    <vecino nombre = 'Alberta'/>
-    <vecino>Ontario</vecino>
-    <vecino nombre = 'Ontario'/>
-    <vecino>Ontario</vecino>
-    <vecino nombre = 'Groenlandia'/>
-    <vecino>Ontario</vecino>
->>>>>>> 431bc719a1723c38e407353ba77ca26a436889fc
   </pais>
 
   <pais nombre = 'Ontario'>
