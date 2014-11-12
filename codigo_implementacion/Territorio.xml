@@ -26,9 +26,9 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino nombre = 'Venezuela'/>
-    <vecino nombre = 'Estados Unidos del Oeste'/>
-    <vecino nombre = 'Estados Unidos del Este'/>
+    <vecino>Venezuela</vecino>
+    <vecino>Estados Unidos del Oeste</vecino>
+    <vecino>Estados Unidos del Este</vecino>
   </pais>
 
   <pais nombre = 'Estados Unidos del Este'>
@@ -36,10 +36,10 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino nombre = 'Quebec'/>
-    <vecino nombre = 'Estados Unidos del Oeste'/>
-    <vecino nombre = 'Ontario'/>
-    <vecino nombre = 'Mexico, America Central y El Caribe'/>
+    <vecino>Quebec</vecino>    
+    <vecino>Estados Unidos del Oeste</vecino>
+    <vecino>Ontario</vecino>
+    <vecino>Mexico, America Central y El Caribe</vecino>
   </pais>
 
   <pais nombre = 'Groenlandia'>
@@ -47,9 +47,9 @@
     <continente>America del Norte </continente>
     <tropas>0</tropas>
     <jugador>none</jugador>
-    <vecino nombre = 'Territorios del Noroeste'/>
-    <vecino nombre = 'Quebec'/>
-    <vecino nombre = 'Ontario'/>
+    <vecino>Territorios del Noroeste</vecino>
+    <vecino>Quebec</vecino>
+    <vecino>Ontario</vecino>
   </pais>
 
   <pais nombre = 'Territorios del Noroeste'>
@@ -58,9 +58,13 @@
     <tropas>0</tropas>
     <jugador>none</jugador>
     <vecino nombre = 'Alaska'/>
+    <vecino>Ontario</vecino>
     <vecino nombre = 'Alberta'/>
+    <vecino>Ontario</vecino>
     <vecino nombre = 'Ontario'/>
+    <vecino>Ontario</vecino>
     <vecino nombre = 'Groenlandia'/>
+    <vecino>Ontario</vecino>
   </pais>
 
   <pais nombre = 'Ontario'>
