@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Territorio>
+
+  <pais nombre = 'Alaska'>
+    <id>1</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Alberta'/>
+    <vecino nombre = 'Territorios del Noroeste'/>
+  </pais>
+
+  <pais nombre = 'Alberta'>
+    <id>2</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Ontario'/>
+    <vecino nombre = 'Territorios del Noroeste'/>
+    <vecino nombre = 'Estados Unidos del Oeste'/>
+    <vecino nombre = 'Alaska'/>
+  </pais>
+
+  <pais nombre = 'Mexico, America Central y El Caribe'>
+    <id>3</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Venezuela'/>
+    <vecino nombre = 'Estados Unidos del Oeste'/>
+    <vecino nombre = 'Estados Unidos del Este'/>
+  </pais>
+
+  <pais nombre = 'Estados Unidos del Este'>
+    <id>4</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Quebec'/>
+    <vecino nombre = 'Estados Unidos del Oeste'/>
+    <vecino nombre = 'Ontario'/>
+    <vecino nombre = 'Mexico, America Central y El Caribe'/>
+  </pais>
+
+  <pais nombre = 'Groenlandia'>
+    <id>5</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Territorios del Noroeste'/>
+    <vecino nombre = 'Quebec'/>
+    <vecino nombre = 'Ontario'/>
+  </pais>
+
+  <pais nombre = 'Territorios del Noroeste'>
+    <id>6</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Alaska'/>
+    <vecino nombre = 'Alberta'/>
+    <vecino nombre = 'Ontario'/>
+    <vecino nombre = 'Groenlandia'/>
+  </pais>
+
+  <pais nombre = 'Ontario'>
+    <id>7</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Estados Unidos del Oeste'/>
+    <vecino nombre = 'Estados Unidos del Este'/>
+    <vecino nombre = 'Quebec'/>
+    <vecino nombre = 'Groenlandia'/>
+    <vecino nombre = 'Alberta'/>
+    <vecino nombre = 'Territorios del Noroeste'/>
+  </pais>
+
+  <pais nombre = 'Quebec'>
+    <id>8</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Ontario'/>
+    <vecino nombre = 'Estados Unidos del Este'/>
+    <vecino nombre = 'Groenlandia'/>
+  </pais>
+
+  <pais nombre = 'Estados Unidos del Oeste'>
+    <id>9</id>
+    <continente>America del Norte </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Alberta'/>
+    <vecino nombre = 'Ontario'/>
+    <vecino nombre = 'Estados Unidos del Este'/>
+    <vecino nombre = 'Mexico, America Central y El Caribe'/>
+  </pais>
+
+  <pais nombre = 'Argentina'>
+    <id>10</id>
+    <continente>America del Sur </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Brasil'/>
+    <vecino nombre = 'Peru'/>
+  </pais>
+
+  <pais nombre = 'Brasil'>
+    <id>11</id>
+    <continente>America del Sur </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Argentina'/>
+    <vecino nombre = 'Peru'/>
+    <vecino nombre = 'Venezuela'/>
+  </pais>
+
+  <pais nombre = 'Peru'>
+    <id>12</id>
+    <continente>America del Sur </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Argentina'/>
+    <vecino nombre = 'Brasil'/>
+    <vecino nombre = 'Venezuela'/>
+  </pais>
+
+  <pais nombre = 'Venezuela'>
+    <id>13</id>
+    <continente>America del Sur </continente>
+    <tropas>0</tropas>
+    <jugador>none</jugador>
+    <vecino nombre = 'Peru'/>
+    <vecino nombre = 'Brasil'/>
+    <vecino nombre = 'Mexico, America Central y El Caribe'/>
+  </pais>
+
+</Territorio>
