@@ -19,8 +19,17 @@ def loadXML():
     se encuentra definido en el archivo .xml
     '''
     territorio = ET.parse('Territorio.xml')
+    arbol = territorio.getroot()
+    
+    for node in arbol:
+        ids = [x.text for x in node.findall('id')]
+        continente = [x.text for x in node.findall('continente')]
+        tropas = [x.text for x in node.findall('tropas')]
+        salida = [node[0].text]+ids+continente+tropas
+        print [node.attrib]+[x.text for x in node]
+        
 
-    print territorio.findall('pais', 'vecino')
+    
 
 
 loadXML()
