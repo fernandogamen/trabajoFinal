@@ -66,9 +66,55 @@ Teniendo ya esto definido, entonces, cada jugador tendr\'a un ejercito inicial d
 Aqu\'i es donde describimos el comportamiento del agente.
 
 
-\section{Funci\'on de evaluaci\'on e implementaci\'on.}
+\section{Funci\'on de evaluaci\'on.}
 
-El tablero de juego estar\'a representado por medio de una gr\'afica, en la cual, cada nodo  ser\'a el representante de un pa\'is, \'estos comparten frontera con aquellos nodos en los cuales existe una arista que los conecta.\\
+La funci\'on de evualci\'on consiste en recibir el tablero de juego y le va asignar un valor n\'umerico.\\
+
+$$ 
+F(n)_{eval}:= \left\{\begin{array}{c l}
+  \infty\ \textit{Max\ resulta\ ser\ ganador.}\\
+  -\infty\ \textit{Min\ resulta\ ser\ ganador.}\\
+  \mathtt{paisesYTropas(n)}+\mathtt{vecinosYMuchasTropas(n)}
+\end{array}
+\right.
+$$
+
+Donde:\\
+
+$\mathtt{paisesYTropas}$ es un algoritmo que por medio de una modificaici\'on a \textit{BFS} cuenta
+las tropas y paises de cada jugador, suma los que pertenezcan al jugador \textbf{MAX} (IA) y resta los del oponente 
+\textbf{MIN}.\\
+
+\begin{algorithm}
+\begin{algorithmic}[1]
+\ENSURE Entero que representa a los paises y tropas de MAX menos los de MIN
+\STATE{$puntuacion = 0$}
+\STATE{$Queue q$}
+\FORALL{$v \in G$}
+\STATE{$v.visitado = FALSE$}
+\ENDFOR
+\STATE{$v_{1}.visitado = FALSE$}
+\STATE{$q.enqeue(v_{1})$}
+\WHILE{$q.isNotEmpty()$}
+\STATE{$v = q.remove()$}
+\FORALL{$u \in Vecinos(v)$}
+\IF{$u.visitado = FALSE$}
+\IF{$u.jugador = MAX$}
+\STATE{$puntuacion = puntuacion + u.daTropas() + 1$}
+\ENDIF
+\IF{$u.jugador = MIN$}
+\STATE{$puntuacion = puntuacion - u.daTropas() - 1$}
+\ENDIF
+\STATE{$u.visitado = TRUE$}
+\STATE{$q.enqeue(u)$}
+\ENDIF
+\ENDFOR
+\ENDWHILE
+\RETURN $puntuacion$
+\end{algorithmic}
+\caption{Definici\'on de la funci\'on $paisesYTropas$}
+\label{paisesYTropas}
+\end{algorithm}
 
 Para introducir la funci\'on de evaluaci\'on primero observaremos el siguiente conjunto de definiciones:\\
 
