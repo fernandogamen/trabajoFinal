@@ -11,8 +11,13 @@ class Node:
         self.continente = continente
         self.tropas = tropas
         self.jugador = jugador
-        self.vecinos = vecinos
+        if type(vecinos) == list:
+            self.vecinos = vecinos
+        else:
+            return None
 
+
+            
     def getnombre(self):
         '''Regresa el nombre del nodo '''
         return self.nombre
