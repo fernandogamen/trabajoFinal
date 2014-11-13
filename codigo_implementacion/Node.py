@@ -63,6 +63,8 @@ class Node:
     def setvecinos(self, vecinos):
         '''Actualiza la lista de vecinos de ese pais'''
         self.vecinos = vecinos
-    
+
+    def tostring(self):
+        print self.nombre, self.id_pais, self.continente,self.tropas, self.jugador, self.vecinos
 
     
