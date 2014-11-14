@@ -117,7 +117,8 @@ las tropas y paises de cada jugador, suma los que pertenezcan al jugador \textbf
 \end{algorithm}
 
 $\mathtt{paisesYTropas}$ es un algoritmo que por medio de una modificaici\'on a \textit{BFS} cuenta
-los vecinos de los paises de \textbf{MAX} que pertenecen a \textbf{MIN}.\\
+las tropas y paises de cada jugador, suma los que pertenezcan al jugador \textbf{MAX} (IA) y resta los del oponente 
+\textbf{MIN}.\\
 
 \begin{algorithm}
 \begin{algorithmic}[1]
